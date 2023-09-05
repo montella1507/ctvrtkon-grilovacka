@@ -81,6 +81,6 @@ class FactoryVector3 extends ValueObject<Vector3Props> {
   }
 }
 
-let v1 = new FactoryVector3();
+//let v1 = new FactoryVector3();
 let v2 = FactoryVector3.create(1,2,3);
 let v3 = FactoryVector3.parseFromString("[1,2,3]");
