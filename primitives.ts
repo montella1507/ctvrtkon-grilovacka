@@ -61,9 +61,7 @@ console.log(vectorA.equals(vectorB));
 
 
 class FactoryVector3 extends ValueObject<Vector3Props> {
-  private constructor(
-    x: number, y: number, z: number
-  ){
+  private constructor(x: number, y: number, z: number){
     super({x,y,z});
   } 
 
