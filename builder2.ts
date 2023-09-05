@@ -31,9 +31,9 @@ var textContent = Body2.text("Ahoj");
 class CalendarEvent2 {
   subject: string;
   date: Date;
-  attendees: Attendee2[];
+  attendees: Attendee2[] = [];
   body: Body2;
-  isOnlineMeeting: boolean;
+  isOnlineMeeting: boolean = false;
 }
 
 class Attendee2Builder {
@@ -67,4 +67,5 @@ var event3 = Attendee2Builder.create("Subject", new Date())
                             .withBody(Body2.html("<big>litte</big>"))
                             .build();
 
-                            
+
+console.log(event3);
