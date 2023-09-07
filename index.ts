@@ -1,1 +1,1 @@
-import './ambient';
+import './strategy2';
